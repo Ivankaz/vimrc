@@ -28,3 +28,6 @@ set showmatch
 
 " включить подсветку синтаксиса Python
 let python_highlight_all = 1
+
+" с помощью команды // будет найден выделенный текст 
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>

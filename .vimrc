@@ -32,6 +32,9 @@ set cursorline
 " показывать парную скобку для (), [] и {}
 set showmatch
 
+" формат файлов
+set fileformat=unix
+
 " включить подсветку синтаксиса Python
 let python_highlight_all = 1
 
